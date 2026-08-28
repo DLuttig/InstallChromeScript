@@ -1,5 +1,10 @@
-# Install chrome MSI silently, then apply policy registry keys
-#Run as administrator
+<#
+.SYNOPSIS
+    This script installs Google Chrome silently using the MSI installer and applies specific policy registry keys.
+
+.DESCRIPTION
+    The script checks for the presence of the Google Chrome MSI installer in the same directory as the script. If found, it installs Chrome silently and then creates registry keys to enforce certain policies.
+#>
 
 $ErrorActionPreference = "Stop"
 

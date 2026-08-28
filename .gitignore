@@ -1,0 +1,3 @@
+# Exclude all files with a specific extension
+*.msi
+*.exe
